@@ -1,4 +1,7 @@
 name: drupalgovcon-demo
 recipe: drupal8
 config:
+  php: '7.2'
+  database: mariadb
+  drush: "*"
   webroot: .
