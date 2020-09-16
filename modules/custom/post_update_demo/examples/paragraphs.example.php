@@ -27,7 +27,7 @@ function post_update_demo_post_add_paragraphs() {
     ['Name 3', 'Quisque malesuada, ligula eu iaculis mollis.']
   ];
 
-  // loop over array to add paraphs to page
+  // loop over array to add paragraphs to page
   foreach($data as $array) createAndAddParagraph($node, $array);
 
   // Publish Page
